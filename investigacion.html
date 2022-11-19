@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Color</title>
+    <link rel="website icon" type="png" href="./img/JavaScrip logo.jpg">
+    <link rel="stylesheet" href="./investigacion.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="icono" class="icono"> <img src="./img/icono menu.png" alt=""><div class="menu">Menu</div></a>
+            <div class="enlaces uno" id="enlaces">
+                <a href="./practica1.html">Practica Nº1</a>
+                <a href="./practica2.html">Practica Nº2</a>
+                <a href="./investigacion.html">Ivestigación y Diseño</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="textos">
+                <h1 id>JavaScript</h1>
+                <h2>Investigacion<br> Adivina el Color</h2>
+                <a href="https://www.whatsapp.com/?lang=es">Contacto</a>
+            </div>
+            <div class="i1">
+                <img id="image" src="./img/JavaScrip logo.jpg" alt="JavaScript">
+            </div>
+        </div>
+    </header>
+    <div class="juego" id="juego">
+        <h1 class="h12">Adivina el Color <span id="color-display">RGB</span> Ganate un Chicle</h1>
+	<div id ="stripe">
+		<button id="reset">Colores Nuevos</button>
+		<span id="message"></span>
+		<button class="mode">Facil</button>
+		<button class="mode selected">Dificil</button>
+	</div>
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+    </div>
+    <div class="ruleta">
+        <h2 id="titulo2">Ruleta de la suerte</h2>
+        <div class="contenido">
+            <div class="spinBtn">GIRA</div>
+            <div class="wheel">
+                <div class="number" style="--i:1;--clr:#db7093"><span><img src="assets/img/one.png" alt="">rosa</span></div>
+                <div class="number" style="--i:2;--clr:#20b2aa"><span><img src="assets/img/on1.png" alt="">celeste</span></div>
+                <div class="number" style="--i:3;--clr:#d63e92"><span><img src="assets/img/on2.png" alt="">rojo</span></div>
+                <div class="number" style="--i:4;--clr:#daa520"><span><img src="assets/img/on3.png" alt="">verde</span></div>
+                <div class="number" style="--i:5;--clr:#ff340f"><span><img src="assets/img/on4.png" alt="">azul</span></div>
+                <div class="number" style="--i:6;--clr:#ff7f50"><span><img src="assets/img/on5.png" alt="">naranja</span></div>
+                <div class="number" style="--i:7;--clr:#3cb371"><span><img src="assets/img/on6.png" alt="">blanco</span></div>
+                <div class="number" style="--i:8;--clr:#4169e1"><span><img src="assets/img/on7.png" alt="">cafe</span></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">Desarrolladores FULL STACK</h3>
+                <span class="footer-info">966 666 469</span>
+                <span class="footer-info">Hackersquehackean@hotmail.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">menu</span>
+                    <a class="menu-item-footer" href="">Inicio</a>
+                    <a class="menu-item-footer" href="">Contactanos</a>
+                    <a class="menu-item-footer" href="">Referencias</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">Integranetes </span>
+                    <a class="menu-item-footer" href="">Yoni Turpo</a>
+                    <a class="menu-item-footer" href="">Elvis Ccahua</a>
+                    <a class="menu-item-footer" href="">Mayerli Esperilla</a>
+                    <a class="menu-item-footer" href="">Renato Torres </a>
+                    <a class="menu-item-footer" href="">Brayan quispe</a>
+                </div>
+            </div>
+            <div id="redes" class="footer-content-container">
+                <span class="menu-title">nuestras redes</span>
+                <div class="social-container">
+                    <a class="social-link" href=""></a>
+                    <a class="social-link" href=""></a>
+                    <a class="social-link" href=""></a>
+                    <a class="social-link" href=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright">&copy;2022, Darrolladores Juniors.com</span>
+        </div>
+    </footer>
+
+    <script src="./investigacion.js"></script>
+</body>
+</html>
